@@ -1,0 +1,12 @@
+Shorten URL (POST /api/shorten)
+
+Redirect to original URL (GET /<short_code>)
+
+Analytics (GET /api/stats/<short_code>)
+
+URL validation
+
+6-character random alphanumeric short code
+
+In-memory thread-safe storage
+5+ tests covering functionality & edge cases
