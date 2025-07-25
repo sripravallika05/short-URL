@@ -1,0 +1,8 @@
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python -m flask --app app.main run
+
+# Run tests
+pytest
